@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="730" viewBox="0 0 1100 730">
+  <rect x="0" y="0" width="1100" height="730" rx="24" fill="#F8FAFC"/>
+  <text x="60" y="60" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="31" font-weight="700" fill="#172B3A">用 Codex 构建 AI-native 研发流程</text>
+  <text x="60" y="99" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="20" fill="#627383">六阶段按需迭代，保留可追溯的产物</text>
+
+  <!-- Main flow, read left to right on the first row, right to left on the second. -->
+  <path d="M 234 187 H 491 M 586 187 H 843 M 938 187 H 1011 Q 1034 187 1034 210 V 386 Q 1034 409 1011 409 H 962 M 866 409 H 609 M 514 409 H 257" fill="none" stroke="#8CABB9" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="491,180 504,187 491,194" fill="#547D91"/>
+  <polygon points="843,180 856,187 843,194" fill="#547D91"/>
+  <polygon points="962,402 949,409 962,416" fill="#547D91"/>
+  <polygon points="609,402 596,409 609,416" fill="#547D91"/>
+  <polygon points="257,402 244,409 257,416" fill="#547D91"/>
+
+  <!-- Feedback closes the loop. -->
+  <path d="M 162 409 H 80 Q 58 409 58 387 V 209 Q 58 187 80 187 H 130" fill="none" stroke="#279887" stroke-width="3" stroke-dasharray="7 7"/>
+  <polygon points="130,180 143,187 130,194" fill="#279887"/>
+  <text x="79" y="327" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="19" font-weight="600" fill="#207D70">反馈</text>
+  <text x="79" y="354" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="17" fill="#527D76">回到 Plan</text>
+  <text x="550" y="342" text-anchor="middle" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="20" fill="#647B86">任务内 Build ↔ Test，按反馈往返</text>
+
+  <!-- Plan -->
+  <circle cx="198" cy="187" r="47" fill="none" stroke="#DBE9F1" stroke-width="7"/>
+  <circle cx="198" cy="187" r="35" fill="#2B6387"/>
+  <text x="198" y="198" text-anchor="middle" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="29" font-weight="700" fill="#FFFFFF">1</text>
+  <text x="198" y="257" text-anchor="middle" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="26" font-weight="700" fill="#213C50">Plan 规划</text>
+  <text x="198" y="290" text-anchor="middle" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="20" fill="#617889">产物：intent</text>
+
+  <!-- Design -->
+  <circle cx="550" cy="187" r="35" fill="#2B6387"/>
+  <text x="550" y="198" text-anchor="middle" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="29" font-weight="700" fill="#FFFFFF">2</text>
+  <text x="550" y="257" text-anchor="middle" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="26" font-weight="700" fill="#213C50">Design 设计</text>
+  <text x="550" y="290" text-anchor="middle" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="20" fill="#617889">产物：spec</text>
+
+  <!-- Build -->
+  <circle cx="902" cy="187" r="35" fill="#2B6387"/>
+  <text x="902" y="198" text-anchor="middle" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="29" font-weight="700" fill="#FFFFFF">3</text>
+  <text x="902" y="257" text-anchor="middle" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="26" font-weight="700" fill="#213C50">Build 实现</text>
+  <text x="902" y="290" text-anchor="middle" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="20" fill="#617889">产物：plan + 代码</text>
+
+  <!-- Test -->
+  <circle cx="902" cy="409" r="35" fill="#278677"/>
+  <text x="902" y="420" text-anchor="middle" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="29" font-weight="700" fill="#FFFFFF">4</text>
+  <text x="902" y="479" text-anchor="middle" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="26" font-weight="700" fill="#213C50">Test 验证</text>
+  <text x="902" y="512" text-anchor="middle" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="20" fill="#617889">产物：验证证据</text>
+
+  <!-- Review and Deliver -->
+  <circle cx="550" cy="409" r="35" fill="#278677"/>
+  <text x="550" y="420" text-anchor="middle" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="29" font-weight="700" fill="#FFFFFF">5</text>
+  <text x="550" y="479" text-anchor="middle" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="26" font-weight="700" fill="#213C50">评审与交付</text>
+  <text x="550" y="512" text-anchor="middle" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="20" fill="#617889">产物：评审 / 交付记录</text>
+
+  <!-- Maintain and Improve -->
+  <circle cx="198" cy="409" r="35" fill="#278677"/>
+  <text x="198" y="420" text-anchor="middle" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="29" font-weight="700" fill="#FFFFFF">6</text>
+  <text x="198" y="479" text-anchor="middle" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="26" font-weight="700" fill="#213C50">维护与改进</text>
+  <text x="198" y="512" text-anchor="middle" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="20" fill="#617889">产物：反馈 / 回归用例</text>
+
+  <!-- Responsibilities shared by all six stages. -->
+  <rect x="40" y="564" width="1020" height="134" rx="20" fill="#EAF0F4"/>
+  <circle cx="77" cy="600" r="7" fill="#2B6387"/>
+  <text x="95" y="608" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="23" font-weight="700" fill="#213C50">Agent 执行</text>
+  <text x="70" y="645" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="19" fill="#506A7B">执行任务、产出工件</text>
+  <text x="70" y="673" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="19" fill="#506A7B">提交可复核的验证证据</text>
+
+  <circle cx="380" cy="600" r="7" fill="#278677"/>
+  <text x="398" y="608" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="23" font-weight="700" fill="#213C50">人负责判断</text>
+  <text x="373" y="645" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="19" fill="#506A7B">负责业务与技术判断</text>
+  <text x="373" y="673" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="19" fill="#506A7B">确认取舍与可接受的结果</text>
+
+  <circle cx="717" cy="600" r="7" fill="#6C778F"/>
+  <text x="735" y="608" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="22" font-weight="700" fill="#213C50">Git / CI / 发布平台</text>
+  <text x="710" y="645" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="19" fill="#506A7B">记录版本与变更</text>
+  <text x="710" y="673" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="19" fill="#506A7B">按团队规则检查与交付</text>
+</svg>
