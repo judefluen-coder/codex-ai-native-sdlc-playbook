@@ -8,6 +8,8 @@
 
 GitHub 整理日期：2026-09-22。内容对应[飞书文档](https://dcnb0h9s29sm.feishu.cn/docx/FxNadSuh6o1VPZxyOXMcWq1Anyc)第 119 版；本次整理仅适配 Markdown 排版。
 
+发现过时操作或想改进案例？请先看[参与完善手册](CONTRIBUTING.md)。
+
 **目录**
 
 1. [概要：用 Codex 参与整个研发过程](#overview)
